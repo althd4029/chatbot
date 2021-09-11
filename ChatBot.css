@@ -12,6 +12,7 @@ body{
 
     background-color :rgb(219, 219, 255);
 }
+
 /*column1 출력창*/
 #output_text{
     display :flex;
