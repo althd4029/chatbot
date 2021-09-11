@@ -12,9 +12,6 @@ body{
 
     background-color :rgb(219, 219, 255);
 }
-#typing{
-    margin-top : 6rem;
-}
 /*column1 출력창*/
 #output_text{
     display :flex;
