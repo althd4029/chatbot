@@ -1,0 +1,82 @@
+body{
+    font-family: 'Gamja Flower', cursive;
+}
+
+.container{
+    display :flex;
+    flex-direction :column;
+    align-items :center;
+    justify-content :center;
+
+    font-size :10px;
+
+    background-color :rgb(219, 219, 255);
+}
+#typing{
+    margin-top : 6rem;
+}
+/*column1 출력창*/
+#output_text{
+    display :flex;
+    align-items :center;
+    justify-content :center;
+
+    border :5px solid rgb(133, 142, 241);
+
+    border-radius :12px;
+    background-color :white;
+
+    font-size :3em;
+    
+    margin :1rem;
+    margin-top : 1rem;
+    
+    padding :1rem;
+
+    width :25rem;
+    height :15rem;
+}
+
+/*column2 사진*/
+
+
+/*column3 입력창*/
+#input_text{
+    font-family: 'Poor Story', cursive;
+    margin :1rem;
+
+    width :20rem;
+    height :2.3rem;
+
+    border :2px solid black;
+
+    background-color :white;
+    color :rgb(133, 142, 241);
+    font-weight :bolder;
+    font-size :2em;
+}
+
+#input_text:focus{
+    background-color :rgb(242, 243, 255);
+}
+
+/*column4 버튼*/
+#input_button{
+    font-family: 'Poor Story', cursive;
+    font-size :2em;
+    font-weight :bolder;
+
+    width :10rem;
+    height :4rem;
+
+    background-color :rgb(133, 142, 241);
+    border :0px;
+    border-radius : 30px;
+
+    margin-right :1rem;
+    margin-left :1rem;
+}
+
+#input_button:active {
+    background-color :rgb(106, 115, 209);
+}
